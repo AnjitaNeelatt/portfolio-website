@@ -4,31 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Anjita</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link href="assets/ICON.png" rel="icon">
-  </head> 
-  
-  
+  </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo"> </div>
+      <div class="logo">Anjita Neelatt Anilkumar</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#publications">Research</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-
     <nav id="hamburger-nav">
-      <div class="logo"> </div>
-      </div>
+      <div class="logo"></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,14 +31,11 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-          <li><a href="#publications" onclick="toggleMenu()">Research</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
-
-
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profilepic-anjita.png" alt="Anjita profile picture" />
@@ -53,7 +43,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Anjita</h1>
-        <p class="section__text__p2">Research Scholar</p>
+        <p class="section__text__p2">PhD Student at IIT Bombay</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -65,7 +55,6 @@
             Contact Info
           </button>
         </div>
-        
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
@@ -74,28 +63,25 @@
             onclick="location.href='https://www.linkedin.com/in/anjita-neelatt'"
           />
           <img
-            src="./assets/researchgate.png"
-            alt="ResearchGate icon"
-            class="icon"
-            onclick="location.href='https://www.researchgate.net/profile/N-A-Anjita-2'"
-            />
-            
-            <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/AnjitaNeelatt'"
-          />      
-          
+          />
+          <img
+            src="./assets/researchgate.png"
+            alt="My Researchgate profile"
+            class="icon"
+            onclick="location.href='https://www.researchgate.net/profile/N-A-Anjita-2'"
+          />
           <img
             src="./assets/twitter.png"
-            alt="Twitter icon"
+            alt="My Twitter profile"
             class="icon"
             onclick="location.href='https://twitter.com/Anjita_'"
-            />
-           
+          />
         </div>
-      </div> 
+      </div>
     </section>
 
     <section id="about">
@@ -113,89 +99,72 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/researchicon.png"
-                alt="Research icon"
+                src="./assets/experience.png"
+                alt="Experience icon"
                 class="icon"
               />
-              <h3>Ph.D. Scholar</h3>
-              <p>July 2021 - Present <br />Remote Sensing Specialization<br />Department of Civil Engineering<br />Indian Institute of Technology Bombay</p>
+              <h3>Professional Experience</h3>
+              <p>Assistant Professor <br />[Civil Engineering Department, TIST] <br />09/2020 - 07/2021</p>
             </div>
             <div class="details-container">
               <img
-                src="./assets/educationnew.png"
+                src="./assets/education.png"
                 alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p><strong>Bachelors in Civil Engineering (FISAT)</strong> <br/> 2013-2017 <br /><strong>Masters in Remote Sensing and GIS (NITK)</strong><br/> 2018-2020 </p>
+              <p>B.Tech: Civil Engineering [FISAT]<br />M.Tech: Remote Sensing & GIS [NITK]</p>
             </div>
           </div>
           <div class="text-container">
-            <p>In my ongoing pursuit of a PhD in remote sensing, my primary research thrust revolves around harnessing remote 
-              sensing techniques for tracking and monitoring desert locusts. Throughout my academic journey, I've explored a 
-              multitude of remote sensing applications, ranging from assessing coastal vulnerability to detecting shifts in 
-              shoreline dynamics. Moreover, I've delved deeply into digital image processing and machine learning, utilizing 
-              these innovative technologies to address a diverse array of challenges within the field.
+            <p>
+              In my ongoing pursuit of a PhD in remote sensing, 
+              my primary research thrust revolves around harnessing 
+              remote sensing techniques for tracking and monitoring desert locusts. 
+              Throughout my academic journey, I've explored a multitude of 
+              remote sensing applications, ranging from assessing coastal 
+              vulnerability to detecting shifts in shoreline dynamics. 
+              Moreover, I've delved deeply into digital image processing 
+              and machine learning, utilizing these innovative technologies 
+              to address a diverse array of challenges within the field.
             </p>
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#skills'"
-      />
+      /> -->
     </section>
-
-  
     <section id="skills">
-      <img
-    src="./assets/arrow.png"
-    alt="Arrow icon"
-    class="icon arrow"
-    onclick="location.href='./#about'"
-    style="position: absolute; bottom: 4rem; right: 11.5rem;"
-/>
-<img
-src="./assets/arrow.png"
-alt="Arrow icon"
-class="icon arrow"
-onclick="location.href='./#publications'"
-style="position: absolute; bottom: -109rem; right: 11.5rem;"
-/>
-
-<img
-src="./assets/arrow.png"
-alt="Arrow icon"
-class="icon arrow"
-onclick="location.href='./#experience'"
-style="position: absolute; bottom: -165.5rem; right: 11.5rem;"
-/>
-
-<img
-src="./assets/arrow.png"
-alt="Arrow icon"
-class="icon arrow"
-onclick="location.href='./#contact'"
-style="position: absolute; bottom: -225rem; right: 11.5rem;"
-/>
-
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
-      <div class="research-details-container">
+      <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <!-- <h2 class="research-sub-title">Frontend Development</h2> -->
+            <h2 class="experience-sub-title">Remote Sensing & GIS</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="research icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>QGIS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ArcGIS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -217,10 +186,37 @@ style="position: absolute; bottom: -225rem; right: 11.5rem;"
                   class="icon"
                 />
                 <div>
-                  <h3>ArcGIS</h3>
-                  <p>Experienced</p>
+                  <h3>SNAP</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ErdasImagine</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PolSAR</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming & Others</h2>
+            <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -250,57 +246,19 @@ style="position: absolute; bottom: -225rem; right: 11.5rem;"
                   class="icon"
                 />
                 <div>
-                  <h3>SNAP</h3>
-                  <p>Intermediate</p>
-                </div>
-                
-              </article>
-            </div>
-
-            <div style="margin-top: 50px;"></div>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="research icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>ERDAS Imagine</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PolSAR Tool</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>R-Software</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
                   <h3>C/C++</h3>
                   <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -325,171 +283,112 @@ style="position: absolute; bottom: -225rem; right: 11.5rem;"
                   <p>Experienced</p>
                 </div>
               </article>
-       </div>
+            </div>
+          </div>
+        </div>
       </div>
-      
-    </div>
-    
-   </section>
-
-
-    <section id="publications">
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+    </section>
+    <section id="projects">
       <p class="section__text__p1">Browse My</p>
       <h1 class="title">Research</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-
-          <div>
-            <h1 style="margin-top: 30px;">Publications</h1>
-            <ul>
-              <li>
-                <p style="margin-top: 4px;"><strong>  N. A. Anjita </strong>& Indu, J. (2023). <i>“Leveraging weather radars for desert locust monitoring.” </i>
-                  Remote Sensing Applications: Society and Environment, 100983. 
-                  <a href="https://doi.org/10.1016/j.rsase.2023.100983" style="text-decoration: none; text-decoration-skip-ink: none;">
-                    <strong>doi: 10.1016/j.rsase.2023.100983</strong></a></p>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <p> Mundlamuri Satish Kumar, Venkatesh Kolluru, S. B. Gowthami, <strong>N. A. Anjita</strong>, 
-                  N. Nayana, Linda Regi & G. S. Dwarakish. (2020) <i>"Monitoring Land Use and Land Cover Changes in Coastal Karnataka."</i>. 
-                  (eds) Trends in Civil Engineering and Challenges for Sustainability. Lecture Notes in Civil Engineering, vol 99. 
-                  Springer, Singapore. <a href="https://doi.org/10.1007/978-981-15-6828-2_57" style="text-decoration: none; text-decoration-skip-ink: none;">
-                    <strong> 10.1007/978-981-15-6828-2_57</strong></a></p>
-              </li>
-            </ul>
-
-            <h1 style="margin-top: 30px;">Conferences</h1>
-
-            
-
-            <ul>
-              <li>
-                <p style="margin-top: 4px;"><strong> N. A. Anjita,</strong>  & Indu, J. (2022, December). <i>"Locust Swarm Signatures Using Weather Radars."</i> 
-                  In AGU Fall Meeting Abstracts  
-                  <a href="https://ui.adsabs.harvard.edu/abs/2022AGUFM.B24A..06N/abstract" style="text-decoration: none; text-decoration-skip-ink: none;">
-                  <strong>(Vol. 2022, pp. B24A-06).</strong></a></p>
-                   
-
-                </li>
-            </ul>
-
-
-            <ul>
-              <li>
-                <p><strong> N. A. Anjita,</strong>  & G. S. Dwarakish. (2021, March). <i>"Study of Shoreline Change along Kasaragod District in Kerala, West Coast of 
-                  India."</i>  In HYDRO-2020, 25th International Conference on Hydraulics, Water Resources, and Coastal Engineering [Best Presentation Award]</p>
-
-                </li>
-            </ul>
-
-            <ul>
-              <li>
-                <p><strong> N. A. Anjita,</strong>  Thiruvengadam, P., Vinayak Hugganavar and Indu, J. (2019, September).<i>"Aircraft Detection from a UAV Image."</i>
-                  In the 4th ISSE National Conference INAC-2019 on ‘Systems for Transforming India: Challenges & Opportunities.' Hosted by
-                  the Space Applications Centre, ISRO, Ahmedabad</p>
-
-                </li>
-            </ul>
-
-
-            <h1 style="margin-top: 30px;">Academic Projects</h1>
-            <ul>
-              <li>
-                  <p style="margin-top: 4px;"><strong>Ph.D. Course Projects (Jul. 2021 – Nov. 2021)</strong></p>
-                  <ul>
-                      <li>Shoreline Extraction from Landsat Imagery using Image Processing Techniques <i>[Course: CE657 Computing in Civil Engineering | Prof. Riddhi Singh, IITB]</i></li>
-                      <li>Image Restoration Techniques (Inverse and Wiener Filters) <i>[Course: CE712 Digital Image Processing of Remotely Sensed Data | Prof. J. Indu, IITB]</i></li>
-                  </ul>
-              </li>
-          </ul>
-          
-          <ul>
-              <li>
-                  <p style="margin-top: 10px;"><strong>M.Tech Projects (Jul. 2019 – Jul. 2020)
-                  </strong></p>
-                  <ul>
-                      <li>Coastal Vulnerability Assessment of the Kasaragod Coast in Kerala, West Coast of India<i> [Guide: Prof. G. S. Dwarakish, NITK]</i></li>
-                      <li>Shoreline Change Analysis using Digital Shoreline Analysis System (DSAS)<i> [Guide: Prof. G. S. Dwarakish, NITK]</i></li>
-                  </ul>
-              </li>
-          </ul>
-          
-
-          <ul>
-            <li>
-                <p style="margin-top: 10px;"><strong>B.Tech Project (Jul. 2021 – Nov. 2021)</strong></p>
-                <ul>
-                    <li>Prediction of Compaction Parameters of Soil Using Genetic Algorithm<i> [Guide: Prof. Soumya V Krishnankutty, FISAT]</i></li>
-
-                </ul>
-            </li>
-        </ul>
-          </div>
-          </div>
-      </div>
-    </section>
-
-
-
-
-    <section id="experience">
-      <p class="section__text__p1">My</p>
-      <h1 class="title">Experience</h1>
-      <br>
-      <!-- <div class="research-details-container"> -->
-          <!-- <div class="about-containers"> -->
-              <div class="details-container">
-                  <div style="margin-top: 15px;"> <!-- Add some spacing -->
-                    <div class="section__pic-container" style="display: inline-block;"> <!-- Ensure inline-block to center -->
-                      <a href="https://www.iitb.ac.in/" target="_blank"> <!-- Open link in a new tab -->
-                          <img src="./assets/iitb.png" alt="Logo" style="display: block; margin: 0 auto;"> <!-- Center the image -->
-                      </a>
-                      <p style="margin-top: 15px;">Indian Institute of Technology Bombay</p>
-                        <p> Mumbai, Maharashtra</p>
-                      <ul style="margin-top: 10px; list-style: none;"> <!-- Add some space and remove default list style -->
-                          <li><strong>Teaching Assistant </strong><br>Department of Civil Engineering<br>(07/2020 - Present)</li>
-                      </ul>                     
-                  </div>
-                 
-                  
-                    <div class="section__pic-container" style="display: inline-block;"> <!-- Ensure inline-block to center -->
-                          <a href="https://onlinecourses.nptel.ac.in/" target="_blank"> <!-- Open link in a new tab -->
-                              <img src="./assets/nptel.png" alt="Logo" style="display: block; margin: 0 auto;"> <!-- Center the image -->
-                          </a>
-                          <p style="margin-top: 8px;">National Programme on Technology </p>
-                          <p>Enhanced Learning</p>
-                          <ul style="margin-top: 10px; list-style: none;"> <!-- Add some space and remove default list style -->
-                              <li><strong> Teaching Assistant</strong><br> Microwave Remote Sensing in <br>Hydrology  (12/2022 - Present) <br> </li>
-                          </ul>
-                      </div>
-                      
-                      <div class="section__pic-container" style="display: inline-block;"> <!-- Ensure inline-block to center -->
-                        <a href="https://tistcochin.edu.in/" target="_blank"> <!-- Open link in a new tab -->
-                            <img src="./assets/tist.png" alt="Logo" style="display: block; margin: 0 auto;"> <!-- Center the image -->
-                        </a>
-                        <p style="margin-top: 8px;">Toc H Institute of Science & Technology</p>
-                        <p>Arakkunnam, Kerala</p>
-                        <ul style="margin-top: 10px; list-style: none;"> <!-- Add some space and remove default list style -->
-                            <li><strong>Assistant Professor</strong> <br>Department of Civil Engineering<br>(07/09/2020 - 09/07/2021)</li>
-                        </ul>
-                    </div>
-
-
-
-
-                  </div>
-              </div>
-          </div>
-          <!-- <div class="research-details-container" style="margin-bottom: -50px;">
-            <div class="research-details-container" style="background-color: #680b0b; margin-bottom: 0;"> Add gray background color -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
             </div>
-  </section>
-  
-
-
-
-
+            <h2 class="experience-sub-title project-title">PhD Course Projects</h2>
+            <p>Shoreline Extraction from Landsat Imagery using Image Processing Techniques <br />[Course Code: CE657]
+              <br /><br />Image Restoration Techniques <br />[Course Code: CE712]
+              
+            </p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">M.Tech <br />Projects</h2>
+            <p>Coastal Vulnerability Assessment of the Kasaragod Coast <br />[Guide: Prof. G. S. Dwarakish, NITK]<br /><br />Shoreline Change Analysis using 
+              Digital Shoreline Analysis System <br />[Guide: Prof. G. S. Dwarakish, NITK]
+            </p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">B.Tech <br />Project</h2>
+            <div class="btn-container">
+              <p>Prediction of Compaction Parameters of Soil Using Genetic Algorithm <br />[Guide: Prof. Soumya V Krishnankutty] 
+              </p>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -508,7 +407,7 @@ style="position: absolute; bottom: -225rem; right: 11.5rem;"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/anjita-neelatt">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/anjita-neelatt/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -518,8 +417,7 @@ style="position: absolute; bottom: -225rem; right: 11.5rem;"
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#publications">Research</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Research</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -528,4 +426,4 @@ style="position: absolute; bottom: -225rem; right: 11.5rem;"
     </footer>
     <script src="script.js"></script>
   </body>
-</html> 
+</html>
