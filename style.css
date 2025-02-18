@@ -294,11 +294,24 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: 1.5rem;
-  bottom: 1.5rem;
+
+.arrow-container {
+  position: relative;  /* Ensures it's positioned relative to the section */
 }
+
+.icon.arrow {
+  position: absolute;
+  right: 20px;  /* Moves it to the right */
+  bottom: 20px;  /* Moves it slightly up */
+  width: 40px;  /* Adjust size */
+  height: auto;
+  cursor: pointer;
+}
+
+
+
+
+
 
 
 .details-container {
@@ -438,4 +451,15 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: #18191a; /* Optional: Change color */
+}
+
+a:hover {
+  text-decoration: underline; /* Keeps the underline only on hover */
+  text-underline-offset: 3px; /* Adjusts the distance between text and underline */
 }
